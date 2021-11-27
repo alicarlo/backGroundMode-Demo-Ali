@@ -1,3 +1,4 @@
+# backGroundMode-Demo-Ali
 Background mode usage demo with gps and local notification
 
 The plugin is from the following author: https://github.com/katzer/cordova-plugin-background-mode
