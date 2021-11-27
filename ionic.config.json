@@ -1,0 +1,7 @@
+{
+  "name": "backgroundMode",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

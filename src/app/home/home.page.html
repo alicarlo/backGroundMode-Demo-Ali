@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>BackGround Demo Ali</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+   <br>
+   <h4>coordinates:</h4>
+   <p>Lat:{{coordsData.coords.latitude}}</p>
+   <p>Lng:{{coordsData.coords.longitude}}</p>
+   <p>Location Call Time Interval 5 Seconds</p>
+   <p>Call counter {{cont}}</p>
+
+  <ion-button [disabled]="disabled" expand="full" color="tertiary" (click)="callLocation()"> Start </ion-button>
+</ion-content>
